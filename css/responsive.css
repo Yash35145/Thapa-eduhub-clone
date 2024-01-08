@@ -1,4 +1,4 @@
-@media screen and (max-width:800px) {
+@media screen and (max-width:500px) {
     .navbar{
         flex-direction: column;
         height: 10rem;
@@ -8,11 +8,10 @@
     }
     .logo{
         height: 4rem;
-        width: 15rem;
+        width: 16rem;
     }
     .nav-buttons{
         width: 40rem;
-        margin-right: 20rem;
     }
     .nav-buttons ul{
         font-size: 1.2rem;
@@ -47,12 +46,9 @@
         margin-left: 10rem;
     }
 
-    .hero-div-img{
-        width: 100%;
-    }
     .hero-div-img img{
-        width: 30rem;
-        margin: 5rem 0 0 0rem;
+        width: 26rem;
+        margin: 10rem 0 0 18rem;
     }
     .custom-shape-divider-bottom-1704735970 {
         bottom: -2px;
@@ -274,4 +270,24 @@
     margin: 2rem 2rem;
   }
   /* ends */
+}
+
+@media (min-width:1184px) and (max-width:1270px) {
+    html{
+        font-size: 50%;
+    }
+}
+
+@media (min-width:1000px) and (max-width:1183px) {
+    html{
+        font-size: 40%;
+    }
+
+    .contact-btn{
+        height: 5rem;
+    }
+    .contact-img img{
+        height: auto;
+        width: 80%;
+      }
 }

@@ -17,6 +17,23 @@ html {
   /* scroll-snap-type: Y proximity; */
 }
 
+::-webkit-scrollbar{
+  width: 1rem;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: blue;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+}
+
+::-webkit-scrollbar-track{
+  background-color: white;
+
+}
 body{
   background-color: white;
 }
@@ -26,8 +43,7 @@ body{
   height: 7rem;
   background-color: white;
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+  justify-content: space-around;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   position: relative;
   z-index: 3;
@@ -182,7 +198,7 @@ body{
 
 .custom-shape-divider-bottom-1704735970 {
   position: absolute;
-  bottom: -.5px;
+  bottom: -2px;
   left: 0;
   width: 100%;
   overflow: hidden;
