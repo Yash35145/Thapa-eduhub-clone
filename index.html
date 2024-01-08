@@ -6,8 +6,11 @@
     <title>Home</title>
     <link rel="shortcut icon" href="images/main-hero1.webp" type="image/x-icon">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <!-- navbar section -->
     <header>
         <div class="navbar">
             <div class="nav-logo">
@@ -15,24 +18,249 @@
             </div>
             <div class="nav-buttons">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/service.html">Services</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </header>
+    <!-- navbar section ends -->
     <main>
+        <!-- hero section -->
         <section class="hero-section">
             <div class="hero-div-text">
                 <h1>Unlocking the Potential with Thapa Eduhub</h1>
                 <p>Enhance your skills, grow your knowledge, and achieve success with our top-notch courses. Join us today and unlock your full potential!</p>
-                <button>Learn with Us</button>
+                <button onclick="location.href='#contact'">Learn with Us</button>
             </div>
-            <div class="hero-div-img"></div>
+            <div class="hero-div-img"> <img src="images/main-hero.png" alt="Hero image"></div>
+            <div class="custom-shape-divider-bottom-1704735970">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+            </div>
         </section>
+        <!-- hero section ends  -->
+
+        <!-- about section -->
+        <section class="about-section">
+            <div class="about-text">
+                <h2>About Thapa Eduhub</h2>
+                <p>Guiding your learning journey through research, design and development excellence.</p>
+            </div>
+            <div class="about-div">
+                <div class="info">
+                    <div class="info-icon"><img src="images/research.png" alt=""></div>
+                    <div class="info-text">
+                        <h3>Research</h3>
+                        <p>We start by learning what you need. We look at what's new and exciting in learning and choose topics that match what you want to learn.</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="info-icon"> <img src="images/design.png" alt=""></div>
+                    <div class="info-text">
+                        <h3>Design</h3>
+                        <p>Next, we make the lessons. We make them fun and interesting for you. We make sure they work for different ways people like to learn.</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="info-icon"> <img src="images/dev.png" alt=""></div>
+                    <div class="info-text">
+                        <h3>Development</h3>
+                        <p>After that, we turn the lessons into things you can use online. We use the latest tools to make sure they work well and make you happy.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about section ends -->
+
+        <!-- explore section start -->
+        <section class="explore-section">
+            <div class="explore-text">
+                <h2>Explore Our Courses</h2>
+                <p>Explore our courses and take your skills to the next level.</p>
+            </div>
+            <div class="explore-containers">
+                <div class="exp-container">
+                    <div class="exp-img" style="background-color: rgba(46, 134, 171, .1);">
+                    <i class="fa-solid fa-laptop-code" style="color: #2E86AB;"></i>
+                    </div>
+                    <div class="exp-content">
+                        <h3>JS Development</h3>
+                        <p>Creating dynamic, interactive web applications for user engagement</p>
+                    </div>    
+                </div>
+                <div class="exp-container">
+                    <div class="exp-img" style="background-color: #DEC0F1;">
+                        <i class="fa-solid fa-laptop-code" style="color: #7161EF;"></i>
+                        </div>
+                        <div class="exp-content">
+                            <h3>Pythom Development</h3>
+                            <p>Versatile language for problem-solving and application development</p>
+                        </div>   
+                </div>
+                <div class="exp-container">
+                    <div class="exp-img" style="background-color: rgba(123, 241, 168,.2);">
+                        <i class="fa-solid fa-laptop-code" style="color: #7BF1A8;"></i>
+                        </div>
+                        <div class="exp-content">
+                            <h3>C++ Development</h3>
+                            <p>Powerful, efficient coding language for software development.</p>
+                        </div>   
+                </div>
+                <div class="exp-container">
+                    <div class="exp-img" style="background-color: #90F1EF;">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <div class="exp-content">
+                            <h3>Java Development</h3>
+                            <p>Cross-platform application development with java programming</p>
+                        </div>   
+                </div>
+                <div class="exp-container">
+                    <div class="exp-img" style="background-color: rgba(162, 59, 114, .2);">
+                        <i class="fa-solid fa-laptop-code" style="color: #A23B72;"></i>
+                        </div>
+                        <div class="exp-content">
+                            <h3>SQL Development</h3>
+                            <p>Effective data management and retrieval using SQL database language.</p>
+                        </div>   
+                </div>
+                <div class="exp-container">
+                    <div class="exp-img" style="background-color: rgba(215,93, 52, 0.2)">
+                        <i class="fa-solid fa-laptop-code" style="color: #D75D34;"></i>
+                        </div>
+                        <div class="exp-content">
+                            <h3>HTML Development</h3>
+                            <p>Web content structure with essential markup language.</p>
+                        </div>   
+                </div>
+                <div class="exp-container">
+                    <div class="exp-img" style="background-color: rgba(191, 255, 241, 0.7);">
+                        <i class="fa-solid fa-laptop-code" style="color: #74F2CE;"></i>
+                        </div>
+                        <div class="exp-content">
+                            <h3>CSS Development</h3>
+                            <p>Styling web elements for visually appealing websites.</p>
+                        </div>   
+                </div>
+            </div>
+        </section>
+        <!-- explore section ends -->
+
+         <!-- why choose section start -->
+         <section class="why-choose-section">
+            <div class="why-choose-text">
+                <h2>Why Choose Us</h2>
+                <p>Our goal is to provide you with the best learning experience possible. We believe that everyone should have access to high-quality education.</p>
+            </div>
+            <div class="why-choose-grid">
+                <!-- left side container -->
+                <div class="why-choose-container-side">
+                    <div class="sub-container-left-side">
+                        <div class="sub-container-left-side-img">
+                            <p>1</p>
+                        </div>
+                        <div class="sub-container-left-side-text">
+                            <h3>Expert Instructors</h3>
+                            <p>Our team of experts has years of experience in teaching.</p>
+                        </div>
+                    </div>
+                    <div class="sub-container-left-side">
+                        <div class="sub-container-left-side-img">
+                            <p>2</p>
+                        </div>
+                        <div class="sub-container-left-side-text">
+                            <h3>Interactive lessons</h3>
+                            <p>Our courses are designed to be interactive and engaging.</p>
+                        </div>
+                    </div>
+                    <div class="sub-container-left-side">
+                        <div class="sub-container-left-side-img">
+                            <p>3</p>
+                        </div>
+                        <div class="sub-container-left-side-text">
+                            <h3>Lifetime Learning Support</h3>
+                            <p>We offer lifetime learning support to help you achieve your goals.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- left side container end -->
+                <!-- center container -->
+                <div class="why-choose-container-center">
+                    <div class="circle-div">
+                    </div>
+                    <div class="img-div"><img src="/images/mobile.png" alt="" class="div-image"></div>
+                </div>
+                <!-- center container end -->
+
+                <!-- right side container start -->
+                <div class="why-choose-container-side">
+                    <div class="sub-container-right-side">
+                        <div class="sub-container-right-side-img">
+                            <p>4</p>
+                        </div>
+                        <div class="sub-container-right-side-text">
+                            <h3>Expert Instructors</h3>
+                            <p>Our team of experts has years of experience in teaching.</p>
+                        </div>
+                    </div>
+                    <div class="sub-container-right-side">
+                        <div class="sub-container-right-side-img">
+                            <p>5</p>
+                        </div>
+                        <div class="sub-container-right-side-text">
+                            <h3>Interactive lessons</h3>
+                            <p>Our courses are designed to be interactive and engaging.</p>
+                        </div>
+                    </div>
+                    <div class="sub-container-right-side">
+                        <div class="sub-container-right-side-img">
+                            <p>6</p>
+                        </div>
+                        <div class="sub-container-right-side-text">
+                            <h3>Lifetime Learning Support</h3>
+                            <p>We offer lifetime learning support to help you achieve your goals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- why choose section end -->
+
+         <!-- contact section start -->
+    <section class="contact-section" id="contact">
+        <div class="contact-div">
+            <div class="contact-text">
+                <h3>Let's revolutionize the way you study.</h3>
+                <p>Join our free bootcamps to know us better.</p>
+                <div class="contact-btn">
+                    <a href='/contact.html'>
+                        start now <i class="fa-solid fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-img">
+                <img src="images/main.png" alt="a guy doing coding">
+            </div>
+        </div>
+    </section>
     </main>
+    <!-- main section ends -->
+
+<!-- footer starts -->
+<footer>
+    <div class="footer-div">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 Yash sanodiya</p>
+            <p>Disclaimer - This website is made for project purpose only.</p>
+        </div>
+    </div>                                                                      
+</footer>
 </body>
 </html>
