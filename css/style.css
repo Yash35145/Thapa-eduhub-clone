@@ -36,14 +36,17 @@ html {
 }
 body{
   background-color: white;
+  overflow-x: hidden;
 }
 
 /** navbar starts  */
 .navbar{
   height: 7rem;
+  width: 100%;
   background-color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 20vw;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   position: relative;
   z-index: 3;
@@ -664,7 +667,7 @@ body{
 
 }
 .contact-btn{
-  height: 10rem;
+  height: 8rem;
   width: 10vw;
   display: flex;
   justify-content: center;
