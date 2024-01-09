@@ -4,6 +4,6 @@ it is a updated version of my old thapa eduhub clone.
 <br>
 Added responsiveness and made some changes
 
-Site Live :- (thapaeduhub.netlify.app)
+Site Live :- (https://thapaeduhub.netlify.app "Updated version")
 <br>
-Old Site :- (thapaeduhubclone.netlify.app)
+Old Site :- (https://thapaeduhubclone.netlify.app "Old version")
